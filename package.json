@@ -7,11 +7,16 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js",
         "dev": "nodemon app.js",
+        "seed": "node models/seeds/userSeeder"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.3"
+        "body-parser": "^1.19.2",
+        "express": "^4.17.3",
+        "express-handlebars": "^6.0.3",
+        "express-session": "^1.17.2",
+        "mongoose": "^6.2.8"
     }
 }
