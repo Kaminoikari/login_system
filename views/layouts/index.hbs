@@ -1,0 +1,30 @@
+<div class="card col-5 mx-auto mt-5 ">
+  <div class="card-body mt-5 mb-4">
+    {{#if alert}}
+    <div>
+      <div class="alert alert-danger mt-4 mb-0 col-8 mx-auto" role="alert">
+        {{alert}}
+      </div>
+    </div>
+    {{/if}}
+    <h3 class="text-center mt-4 mb-4 ">Account Login</h3>
+
+
+    <form class="col-8 mx-auto text-center" action="/" method="post">
+      <input type="email" class="form-control form-control-lg mt-3 my-4" name="email" placeholder="Email" required
+        value="{{email}}">
+      <input type="password" class="form-control form-control-lg mb-2" name="password" placeholder="Password"
+        value="{{password}}" required>
+
+      {{#if error}}
+      <div>
+        <div class="alert alert-danger mt-4 mb-0" role="alert">
+          <strong>{{wrongMsg}}</strong> is wrong! Please check!
+        </div>
+      </div>
+      {{/if}}
+
+      <button class="btn btn-dark btn-lg col-5 mt-5 mb-5 " type="submit">Sign in</button>
+    </form>
+  </div>
+</div>

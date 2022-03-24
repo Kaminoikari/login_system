@@ -2,7 +2,7 @@
     "name": "login_system",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node app.js",
@@ -15,7 +15,7 @@
     "dependencies": {
         "body-parser": "^1.19.2",
         "express": "^4.17.3",
-        "express-handlebars": "^6.0.3",
+        "express-handlebars": "^4.0.2",
         "express-session": "^1.17.2",
         "mongoose": "^6.2.8"
     }
