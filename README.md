@@ -25,15 +25,15 @@ This is a student project that built on Node.js with Express framework.
 1. 請先安裝 Node.js、npm 與 Mongodb
 2. 打開你的終端機，開啟資料庫，並將此專案 Clone 到本地
 
-``
+```
 git clone https://github.com/Kaminoikari/login_system.git
-``
+```
 
 3. 之後進入專案資料夾，輸入
 
-``
+```
 npm install
-``
+```
 
 4. 安裝完畢後，輸入以下內容 開始運行網站
 
@@ -44,15 +44,15 @@ npm install
 
 若是跑出 "網站已開啟：localhost:3000" 代表成功，現在可以輸入網址，並開始使用了 
 
-``
+```
 http:/localhost:3000
-``
+```
 
 5. 要結束運行請按下 
 
-``
+```
 ctrl + c
-``
+```
 
 # 開發工具
 
