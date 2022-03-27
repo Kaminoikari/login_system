@@ -17,6 +17,7 @@
         "express": "^4.17.3",
         "express-handlebars": "^4.0.2",
         "express-session": "^1.17.2",
-        "mongoose": "^6.2.8"
+        "mongoose": "^6.2.8",
+        "sweetalert2": "^11.4.7"
     }
 }
