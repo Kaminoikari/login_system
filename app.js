@@ -10,20 +10,22 @@ const app = express();
 const routes = require('./routes');
 require('./config/mongoose');
 
-app.engine('.hbs', exphbs({defaultLayout: 'main ', extname: '.hbs ' }));
+app.engine('.hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }));
 app.set('view engine', 'hbs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(session({
+app.use(
+  session({
     secret: 'id',
     name: 'userId',
     saveUninitialized: false,
     resave: true,
-    })
+  })
 );
 
 app.use(routes);
 
 app.listen(port, () => {
-console.log(`Express server is now listening on http://localhost:${port}`)});
+  console.log(`Express is listening on http://localhost:${port}`);
+});
