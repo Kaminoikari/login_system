@@ -4,6 +4,9 @@ A sample login system.
 
 This is a student project that built on Node.js with Express framework.
 
+![576C7F5B-BFC2-45CB-B813-4E26359345D7](https://user-images.githubusercontent.com/55652178/160292611-9c14433a-a4a9-4221-921e-ec4d3ccdd360.jpeg)
+
+
 # 簡易登入系統
 這是一個用 Node.js + Express 架設網站的練習專案。
 
