@@ -37,10 +37,10 @@ npm install
 
 4. 安裝完畢後，輸入以下內容 開始運行網站
 
-``
+```
 載入種子資料 npm run seed
 啟動網站 npm run start
-``
+```
 
 若是跑出 "網站已開啟：localhost:3000" 代表成功，現在可以輸入網址，並開始使用了 
 
@@ -55,11 +55,12 @@ ctrl + c
 ``
 
 # 開發工具
-Node.js 14.16.0
-Nodemon 2.0.15
-Express 4.17.3
-Body-Parser 1.19.2
-Express-handlebars 4.0.2
-MongoDB
-mongoose 6.2.8
-Sweetalert2 11.4.7
+
+* Node.js 14.16.0
+* Nodemon 2.0.15
+* Express 4.17.3
+* Body-Parser 1.19.2
+* Express-handlebars 4.0.2
+* MongoDB
+* mongoose 6.2.8
+* Sweetalert2 11.4.7
