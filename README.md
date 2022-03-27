@@ -22,36 +22,44 @@ This is a student project that built on Node.js with Express framework.
 
 # 專案安裝流程
 
-### 1. 請先安裝 Node.js、npm 與 Mongodb
-### 2. 打開你的終端機，開啟資料庫，並將此專案 Clone 到本地
+1. 請先安裝 Node.js、npm 與 Mongodb
+2. 打開你的終端機，開啟資料庫，並將此專案 Clone 到本地
 
 ``
-git clone https://github.com/
+git clone https://github.com/Kaminoikari/login_system.git
 ``
 
-### 3. 之後進入專案資料夾，輸入
+3. 之後進入專案資料夾，輸入
 
 ``
 npm install
 ``
 
-### 4. 安裝完畢後，輸入以下內容 開始運行網站
-載入種子資料 
+4. 安裝完畢後，輸入以下內容 開始運行網站
 
 ``
-npm run seed
+載入種子資料 npm run seed
+啟動網站 npm run start
 ``
 
-啟動網站 
+若是跑出 "網站已開啟：localhost:3000" 代表成功，現在可以輸入網址，並開始使用了 
 
 ``
-npm run start
+http:/localhost:3000
 ``
 
-若是跑出 "網站已開啟：localhost:3000" 代表成功，現在可以輸入網址，並開始使用了 http:/localhost:3000
-
-### 5. 要結束運行請按下 
+5. 要結束運行請按下 
 
 ``
 ctrl + c
 ``
+
+# 開發工具
+Node.js 14.16.0
+Nodemon 2.0.15
+Express 4.17.3
+Body-Parser 1.19.2
+Express-handlebars 4.0.2
+MongoDB
+mongoose 6.2.8
+Sweetalert2 11.4.7
