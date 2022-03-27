@@ -48,9 +48,10 @@ npm run seed
 npm run start
 ``
 
-若是跑出 "網站已開啟：localhost:3000" 代表成功，現在可以輸入網址，並開始使用了
-http:/localhost:3000
-要結束運行請按下 
+若是跑出 "網站已開啟：localhost:3000" 代表成功，現在可以輸入網址，並開始使用了 http:/localhost:3000
+
+### 要結束運行請按下 
+
 ``
 ctrl + c
 ``
